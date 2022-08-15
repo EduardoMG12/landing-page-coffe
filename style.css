@@ -1,0 +1,252 @@
+
+body {
+    background-color: black;
+
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5rem;
+    width: 100%;
+    padding: 1.5rem 7%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-bottom: 0.5px solid gray;
+}
+
+.logo {
+}
+
+.navegation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navegation ul li a {
+    transition: 0.5s;
+}
+
+.navegation ul li a:hover {
+    color: #D3AD7F;
+    border-bottom: 2px solid #D3AD7F;
+}
+
+.navegation ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 3rem;
+}
+
+.header a {
+
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+
+}
+
+.page-home {
+    min-height: 100vh;
+    min-width: 100%;
+    border-top: 1px solid #D3AD7F;
+    background-image: url(./coffee\ website/images/home-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 80rem;
+}
+
+.page-home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    font-size: 8rem;
+    margin-left: 14rem;
+    gap: 3rem;
+}
+
+.page-home-text p {
+    font-size: 1.8rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 63.5vh;
+    width: 100%;
+
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.tittle h2,
+.tittle span {
+    font-size: 6rem;
+}
+
+.tittle span {
+    color: #D3AD7F;
+}
+
+.container-about {
+    background-color: #13131A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 79vw;
+    height: 50rem;
+}
+
+.text-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    height: 30rem;
+}
+
+.text-about h2 {
+    font-size: 3rem;
+    text-align: start;
+}
+
+.text-about p {
+    font-size: 1.8rem;
+}
+
+.button {
+    background-color: #D3AD7F;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
+
+.button:hover {
+    letter-spacing: 0.15rem;
+}
+.our-menu{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.tittle-our-menu{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.grid-coffes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+.grid-box-item-coffe1{
+    font-size: 4rem;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+}
+.grid-box-item-coffe1 h2{
+    font-size: 2rem;
+    text-align: start;
+}
+.price ul{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    gap: 0.8rem;
+}
+.price li:first-of-type{
+    font-size: 3rem;
+}
+.price li:last-of-type{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.tittle-our-products{
+    text-align: center;
+}
+.our-products{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid gold;
+}
+.grid-our-products{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.item-product{
+    border: 2px solid rgb(140, 0, 0);
+    min-width: 54rem;
+    height: 50rem;
+    display: flex;
+    flex-wrap: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item-product img{
+    width: 17rem;
+}
+.icons-products{
+    border: 2px solid rgb(83, 139, 19);
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    gap: 1rem;
+}
+.icons-products a{
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+}
+.item-product h2{
+    font-size: 2.5rem;
+}
+.grid-our-products .item-product .stars{
+    padding: 1.5rem;
+}
+.grid-our-products .item-product .stars i{
+    font-size: 5rem;
+    color: yellow;
+}
